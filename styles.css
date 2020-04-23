@@ -1,4 +1,4 @@
-.header{
+header{
   text-align: center;
   width: 100%;
   height: 100%;
@@ -19,6 +19,10 @@
   font-weight: 500;
 }
 
+.links1 ul{
+  text-align: center;
+}
+
 .links1 li{
   border: 0;
   background: none;
@@ -35,12 +39,12 @@
   transition: 0.25s;
 }
 
-.links1 li:focus{
+.links1 li:hover{
 width: 200px;
 border-color: red;
 }
 
-a:link{
+a:link,a:visited{
   color: pink;
 }
 
@@ -60,7 +64,7 @@ a:link{
   transition: 0.25s;
 }
 
-.links2 li:focus{
+.links2 li:hover{
   width: 200px;
   border-color: red;
   }
