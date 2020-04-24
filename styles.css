@@ -20,7 +20,7 @@ header{
 }
 
 a:link,a:visited{
-  color: green;
+  color: white;
   cursor: pointer;
   text-decoration: none;
   padding: auto;
@@ -41,7 +41,7 @@ a:link,a:visited{
   transition: 0.25s;
 }
 
-.links1 li:focus{
+.links1 li:hover{
 width: 200px;
 border-color: rgb(64, 221, 85);
 }
