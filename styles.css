@@ -19,6 +19,13 @@ header{
   font-weight: 500;
 }
 
+a:link,a:visited{
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+  padding: auto;
+}
+
 .links1 ul{
   text-align: center;
 }
@@ -39,13 +46,9 @@ header{
   transition: 0.25s;
 }
 
-.links1 li:hover{
+.links1 li:focus{
 width: 200px;
-border-color: red;
-}
-
-a:link,a:visited{
-  color: pink;
+border-color: rgb(64, 221, 85);
 }
 
 .links2 li{
@@ -66,13 +69,13 @@ a:link,a:visited{
 
 .links2 li:hover{
   width: 200px;
-  border-color: red;
+  border-color: rgb(64, 221, 85);
   }
 
   body{
+    text-align: center;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #009688;
-
   }
