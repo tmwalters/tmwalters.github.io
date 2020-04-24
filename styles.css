@@ -24,13 +24,18 @@ a:link,a:visited{
   cursor: pointer;
   text-decoration: none;
   padding: auto;
+  font-size: 200px;
+}
+
+.links1{
+  text-align: center;
 }
 
 .links1 li{
   border: 0;
   background: none;
   display: inline-block;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 14px 20px;
   border: 2px solid #00BCD4;
   padding: 14px 10px;
@@ -46,11 +51,15 @@ width: 200px;
 border-color: rgb(64, 221, 85);
 }
 
+.links1{
+  text-align: center;
+}
+
 .links2 li{
   border: 0;
   background: none;
   display: inline-block;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 14px 20px;
   border: 2px solid #00BCD4;
   padding: 14px 10px;
